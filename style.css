@@ -6,6 +6,9 @@
 body{
     max-width: 1440px;
 }
+main{
+    background-color: #bbb9d623;
+}
 header{
     background-image: url('Assets/Hero-bg.png');
 }
@@ -64,7 +67,7 @@ nav{
 #action-section{
     max-width: 1140px;
     margin: 0 auto;
-    margin-top: 50px;
+    padding-top: 50px;
     font-family: "Raleway", sans-serif;
     display: flex;
     justify-content: space-between;
@@ -177,6 +180,7 @@ nav{
     max-width: 1140px;
     margin: 0 auto;
     margin-top: 100px;
+    padding-bottom: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -201,4 +205,29 @@ nav{
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius: 14px;
+}
+/* footer style */
+#footer-secton{
+    padding: 100px 400px;
+    text-align: center;
+
+}
+#footer-secton h2{
+    font-family: "Inter", sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+#footer-secton ul{
+    display: flex;
+    margin-left: 100px;
+    gap: 25px;
+    
+}
+#footer-secton a{
+    text-decoration: none;
+    color: #8987A1;
+}
+#footer-secton li{
+    list-style-type: none;
 }
